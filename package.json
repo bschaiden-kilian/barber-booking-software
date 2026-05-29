@@ -2,26 +2,38 @@
   "name": "barber-booking",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src",
+    "test": "vitest"
   },
   "dependencies": {
-    "next": "16.2.6",
-    "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "@hookform/resolvers": "^3",
+    "@supabase/supabase-js": "^2",
+    "date-fns": "^3",
+    "date-fns-tz": "^3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7",
+    "react-router-dom": "^6",
+    "zod": "^3"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
+    "@playwright/test": "^1.60.0",
+    "@tailwindcss/vite": "^4",
+    "@testing-library/react": "^16",
     "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "babel-plugin-react-compiler": "1.0.0",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@vitejs/plugin-react": "^4",
     "eslint": "^9",
-    "eslint-config-next": "16.2.6",
+    "playwright": "^1.60.0",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vite": "^6",
+    "vitest": "^2"
   }
 }

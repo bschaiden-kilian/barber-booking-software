@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-cherry-bomb: "Cherry Bomb One", ui-sans-serif, system-ui, sans-serif;
+    --font-dm-mono: "DM Mono", ui-monospace, monospace;
+    --font-dm-serif: "DM Serif Display", ui-serif, Georgia, serif;
+    --font-dm-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+    --color-app-background: #FBF7F1;
+    --color-app-text: #4A3725;
+    --color-app-primary: #664930;
+    --color-app-accent: #997E67;
+    --color-app-surface: #EFE7DC;
+    --color-app-border: #CCBEB1;
+}
+
+body {
+    background-color: #FBF7F1;
+}
